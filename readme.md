@@ -34,7 +34,7 @@ The project follows a **modular MVC pattern**:
 
 **Folder Structure**
 ```
-
+```
 account-management/
 ├── src/
 │ ├── models/
@@ -67,6 +67,7 @@ account-management/
 ├── package.json
 ├── package-lock.json
 └── README.md
+```
 
 ````
 
