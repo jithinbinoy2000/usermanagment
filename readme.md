@@ -35,26 +35,37 @@ The project follows a **modular MVC pattern**:
 **Folder Structure**
 ```
 
-├── src
-│   ├── models
-│   │   ├── Account.js
-│   │   ├── Payment.js
-│   │   └── Activity.js
-│   ├── controllers
-│   │   ├── accountController.js
-│   │   ├── paymentController.js
-│   │   └── activityController.js
-│   ├── routes
-│   │   ├── accountRoutes.js
-│   │   ├── paymentRoutes.js
-│   │   └── activityRoutes.js
-│   ├── middlewares
-│   │   ├── auth.js
-│   │   └── errorHandler.js
-│   └── app.js
+account-management/
+├── src/
+│ ├── models/
+│ │ ├── Account.js
+│ │ ├── Payment.js
+│ │ └── Activity.js
+│ ├── controllers/
+│ │ ├── accountController.js
+│ │ ├── paymentController.js
+│ │ └── activityController.js
+│ ├── routes/
+│ │ ├── accountRoutes.js
+│ │ ├── paymentRoutes.js
+│ │ └── activityRoutes.js
+│ ├── middlewares/
+│ │ ├── auth.js
+│ │ ├── errorHandler.js
+│ │ └── sanitize.js
+│ └── app.js
+├── tests/
+│ ├── unit/
+│ └── integration/
+├── docs/
+│ ├── api/
+│ └── diagrams/
+├── .env.example
+├── .gitignore
 ├── Dockerfile
 ├── docker-compose.yml
 ├── package.json
+├── package-lock.json
 └── README.md
 
 ````
